@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f0f0;   
+}
+
+#wrapper {
+    width: 900px;
+    margin: 25px auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    color: #3da093;
+    font-size: 2rem;
+}
+
+.dark-btn {
+    font-size: 1.3rem;
+    color: #363535;
+    background-color:#f0f0f0;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.dark-btn:hover {
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #363535;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#input-field {
+    text-align: center;
+    margin: 150px 0 150px;
+}
+
+.free {
+    color: #E27D60;
+}
+
+#input-field h1 {
+    color: #45858d;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#input-field p {
+    font-size: 1.2rem;
+}
+
+.input {
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    margin: 40px 0 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-go {
+    width: 15%;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #E27D60;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-go:hover {
+    background-color:  #ce6346;
+    transition: 0.5s ease;
+}
+
+#how-to-use {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 150px;
+    font-size: 1.2rem;
+}
+
+#how-to-use span {
+    text-transform: uppercase;
+    color: #ce6346;
+}
+
+#step1, #step2, #step3 {
+    margin: 0px 10px 0px 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #45858d;
+}
+
+.heading1 {
+    text-align: center;
+    color: #45858d;
+    margin-bottom: 30px;
+}
+
+.download-offers {
+    display: flex;
+    justify-content: space-around;
+    color: #45858d;
+    text-align: center;
+}
+
+.color {
+    color:  #3da093;
+    font-size: 1.2em;
+}
+
+table {
+    background-color:#32383e;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+table th, table td {
+    padding: 10px 15px;
+}
+
+.btn-download {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    background-color:#32383e;
+    border: 1.5px solid#32CD32;
+    color:#32CD32;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-download:hover {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    background-color:#32CD32;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.offer-btns {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#pause-btn {
+    background-color: #d8d828;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    width: 20%;
+}
+
+#stop-btn {
+    background-color: #df0d0d;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    width: 20%;
+}
+
+footer {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 1199px) {
+    #wrapper {
+        width: 75%;
+    }
+
+    .download-offers {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #input-field {
+        margin: 120px 0 120px;
+    }
+
+    #audio-offer {
+        margin-top: 30px;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    #wrapper {
+        width: 90%;
+    }
+
+    #how-to-use {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.1rem;
+    }
+
+    #step1, #step2, #step3 {
+        margin-top: 20px;
+    }
+
+    #logo {
+        font-size: 1.5rem;
+    }    
+
+    .dark-btn {
+        font-size: 1.1rem;
+    }
+    .dark-btn:hover {
+        font-size: 1.1rem;
+    }
+    .input {
+        width: 65%;
+        font-size: 1.1rem;
+    }
+    #input-field {
+        margin: 100px 0 100px;
+    }
+    #input-field p {
+        font-size: 1.1rem;
+    }
+
+    .btn-go {
+        font-size: 1.1rem;
+    }
+    #audio-offer {
+        margin-top: 30px;
+    }
+
+    table {
+        font-size: 1.2rem;
+    }
+    footer {
+        font-size: 1.1rem;
+    }
+
+}
+.dark {
+    filter: invert(1) hue-rotate(180deg);   
+}
